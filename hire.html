@@ -34,6 +34,16 @@ body {
   <style>
  ::selection {background: #E2CFCF;}
 </style>
+<script>
+$(function() {
+    console.log( "ready!" );
+    $("form input[type=submit]").click(function() {
+        $(".success-message").show()
+        $('#email-form').hide()
+    });
+});
+</script>
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body class="body">
@@ -56,11 +66,11 @@ body {
     <div data-collapse="all" data-animation="default" data-duration="400" id="top-nav" data-easing="ease" data-easing2="ease" role="banner" class="navigation w-nav">
       <div class="container">
         <div class="row row-justify-between">
-          <a href="index.html" class="logo w-inline-block"><img src="images/Star.svg" height="32" width="32" alt="Star icon" class="logo-icon">
+          <a href="index" class="logo w-inline-block"><img src="images/Star.svg" height="32" width="32" alt="Star icon" class="logo-icon">
             <div class="text-xl text-medium">#MikhailArden</div>
           </a>
           <div class="row-btns">
-            <a href="hire.html" aria-current="page" class="btn mobile-display-none w-inline-block w--current">
+            <a href="hire" aria-current="page" class="btn mobile-display-none w-inline-block w--current">
               <div>hello@mikhailarden.com</div><img src="images/arrow-up-right.svg" loading="lazy" alt="Arrow icon" class="btn-icon-r">
             </a>
           </div>
@@ -76,6 +86,8 @@ body {
             <p>Rome wasn&#x27;t built in a day - neither was it built by one person; together we can build the forward-thinking brands of tomorrow. <a href="mailto:hello@mikhailarden.com?subject=I%20need%20some%20help.">Shoot me an email</a> or <a href="#">fill out the form</a> below.<br></p>
             <div class="form-block w-form">
               <form id="email-form" name="email-form" data-name="Email Form" class="form" action="https://submit-form.com/BexmTX0m">
+                <input type="hidden" name="_redirect" value="false" />
+
                 <div data-delay="4000" data-animation="outin" class="form-slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
                   <div class="form-mask w-slider-mask">
                     <div data-w-id="e0b579e7-2a5b-f9ec-e394-4fb6c18b5c3e" class="form-slide w-slide">
@@ -166,7 +178,7 @@ body {
             <div class="copyright-text">© Mikhail Arden 2021, all rights reserved. </div>
           </div>
           <div class="row-btns">
-            <a href="hire.html" aria-current="page" class="btn w-inline-block w--current">
+            <a href="hire" aria-current="page" class="btn w-inline-block w--current">
               <div>Hire Me</div><img src="images/arrow-up-right.svg" loading="lazy" alt="Arrow icon" class="btn-icon-r">
             </a>
             <a href="https://www.linkedin.com/in/mikhailarden/" target="_blank" class="btn w-inline-block">
