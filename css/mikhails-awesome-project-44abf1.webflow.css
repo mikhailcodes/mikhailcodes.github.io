@@ -1280,7 +1280,7 @@ img {
   background-color: transparent;
   -webkit-transition: border-color 300ms ease;
   transition: border-color 300ms ease;
-  color: #7f58e2;
+  color: #c90d11;
   font-size: 16px;
   font-weight: 700;
 }
@@ -1291,7 +1291,7 @@ img {
 }
 
 .text-area:focus {
-  border-color: rgba(127, 88, 226, 0.5);
+  border-color: rgba(201, 13, 17, 0.46);
 }
 
 .text-area::-webkit-input-placeholder {
@@ -2326,6 +2326,41 @@ img {
 }
 
 #w-node-_4e47b821-484c-ab15-db6f-b3698e578f6d-3fe9b8b7 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-_4e47b821-484c-ab15-db6f-b3698e578f6a-4d71693a {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+}
+
+#w-node-_4e47b821-484c-ab15-db6f-b3698e578f6c-4d71693a {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-_4e47b821-484c-ab15-db6f-b3698e578f6d-4d71693a {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;

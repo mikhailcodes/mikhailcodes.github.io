@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Nov 11 2021 18:13:20 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Nov 11 2021 18:59:27 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="60e8e03b4e5297333fe9b8b7" data-wf-site="60e5c87d64dee47016ce6005" lang="en-AU">
 <head>
   <meta charset="utf-8">
@@ -34,16 +34,6 @@ body {
   <style>
  ::selection {background: #E2CFCF;}
 </style>
-<script>
-$(function() {
-    console.log( "ready!" );
-    $("form input[type=submit]").click(function() {
-        $(".success-message").show()
-        $('#email-form').hide()
-    });
-});
-</script>
-
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body class="body">
@@ -66,11 +56,11 @@ $(function() {
     <div data-collapse="all" data-animation="default" data-duration="400" id="top-nav" data-easing="ease" data-easing2="ease" role="banner" class="navigation w-nav">
       <div class="container">
         <div class="row row-justify-between">
-          <a href="index" class="logo w-inline-block"><img src="images/Star.svg" height="32" width="32" alt="Star icon" class="logo-icon">
+          <a href="index.html" class="logo w-inline-block"><img src="images/Star.svg" height="32" width="32" alt="Star icon" class="logo-icon">
             <div class="text-xl text-medium">#MikhailArden</div>
           </a>
           <div class="row-btns">
-            <a href="hire" aria-current="page" class="btn mobile-display-none w-inline-block w--current">
+            <a href="hire.html" aria-current="page" class="btn mobile-display-none w-inline-block w--current">
               <div>hello@mikhailarden.com</div><img src="images/arrow-up-right.svg" loading="lazy" alt="Arrow icon" class="btn-icon-r">
             </a>
           </div>
@@ -85,20 +75,7 @@ $(function() {
             <h2 class="text-md text-medium">Need help with an amazing project?</h2>
             <p>Rome wasn&#x27;t built in a day - neither was it built by one person; together we can build the forward-thinking brands of tomorrow. <a href="mailto:hello@mikhailarden.com?subject=I%20need%20some%20help.">Shoot me an email</a> or <a href="#">fill out the form</a> below.<br></p>
             <div class="form-block w-form">
-              <form id="email-form" name="email-form" data-name="Email Form" class="form" action="https://submit-form.com/BexmTX0m">
-               
-                <input
-    type="hidden"
-    name="_feedback.success.title"
-    value="Thank you!"
-  />
-
-  <input
-  type="hidden"
-  name="_feedback.success.message"
-  value="You'll hear from me shortly."
-/>
-
+              <form id="email-form" name="email-form" data-name="Email Form" class="form">
                 <div data-delay="4000" data-animation="outin" class="form-slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
                   <div class="form-mask w-slider-mask">
                     <div data-w-id="e0b579e7-2a5b-f9ec-e394-4fb6c18b5c3e" class="form-slide w-slide">
@@ -160,7 +137,7 @@ $(function() {
                 </div>
               </form>
               <div class="success-message w-form-done">
-                <h2 class="form-heading">Thank you! I'll get back to you shortly.</h2>
+                <h2 class="form-heading">Thank you! I&#x27;ll get back to you shortly.</h2>
               </div>
               <div class="w-form-fail">
                 <div>Oops! Something went wrong while submitting the form.</div>
@@ -189,7 +166,7 @@ $(function() {
             <div class="copyright-text">© Mikhail Arden 2021, all rights reserved. </div>
           </div>
           <div class="row-btns">
-            <a href="hire" aria-current="page" class="btn w-inline-block w--current">
+            <a href="hire.html" aria-current="page" class="btn w-inline-block w--current">
               <div>Hire Me</div><img src="images/arrow-up-right.svg" loading="lazy" alt="Arrow icon" class="btn-icon-r">
             </a>
             <a href="https://www.linkedin.com/in/mikhailarden/" target="_blank" class="btn w-inline-block">
